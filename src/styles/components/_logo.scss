@@ -1,0 +1,14 @@
+.logo {
+  @include verticalCenter;
+  width: 200px;
+  border-radius: 20px;
+  padding: 5px 0;
+
+  img {
+    height: 40px;
+  }
+  h3 {
+    margin-left: 10px;
+    color: $color-1;
+  }
+}

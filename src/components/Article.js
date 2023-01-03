@@ -6,6 +6,12 @@ const Article = ({ article }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [editContent, setEditContent] = useState("");
 
+  const getTest = (state) => {
+    if (state) {
+      return <h1>Hello Word</h1>;
+    }
+  };
+
   const dateFormat = (date) => {
     let newDate = new Date(date).toLocaleDateString("fr-FR", {
       year: "numeric",
